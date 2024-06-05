@@ -31,7 +31,7 @@ form.addEventListener('submit', e => {
   let firstNum = document.querySelector('#first-num').value;
   let secondNum = document.querySelector('#second-num').value;
   let operator = document.querySelector('#operator').value;
-  TrackJS.track(error);
+  
   // Step 3 Trying Try/Catch
   // try to check input is vaild.
   try {
